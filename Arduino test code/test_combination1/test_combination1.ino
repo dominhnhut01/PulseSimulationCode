@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   digitalWrite(vent_in, HIGH);
-  delay(200);
+  delay(150);
   digitalWrite(vent_in,LOW);
   delay(200);
   digitalWrite(vent_out, HIGH);
